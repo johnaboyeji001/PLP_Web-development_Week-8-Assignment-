@@ -1,0 +1,57 @@
+/* index.html */
+<title>Greenroot Agrostore - Home</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+<div class="logo">🌱 Greenroot Agrostore</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="calculator.html">Calculator</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<button id="menuToggle">☰</button>
+</nav>
+</header>
+<main>
+<section class="hero">
+<h1>Fresh & Organic Vegetables Delivered to Your Doorstep!</h1>
+<p>Experience the taste of farm-fresh produce every day.</p>
+<button id="shopNowBtn">Shop Now</button>
+</section>
+
+
+<section class="featured-products">
+<h2>Featured Products</h2>
+<div class="products-grid">
+<div class="product-card" id="tomatoCard">
+<img src="images/tomato.jpg" alt="Tomatoes">
+<h3>Tomatoes</h3>
+<p>₦500/kg</p>
+<button onclick="animateProduct('tomatoCard')">View Details</button>
+</div>
+<div class="product-card" id="pepperCard">
+<img src="images/pepper.jpg" alt="Peppers">
+<h3>Red Pepper</h3>
+<p>₦400/kg</p>
+<button onclick="animateProduct('pepperCard')">View Details</button>
+</div>
+</div>
+</section>
+
+
+<section class="special-offer">
+<h2>Today's Special Offer</h2>
+<div id="offerPopup" class="popup hidden">Get 10% off Tomatoes today!</div>
+<button id="offerBtn">Reveal Offer</button>
+</section>
+</main>
+<footer>
+<p>&copy; 2025 Greenroot Agrostore | Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
