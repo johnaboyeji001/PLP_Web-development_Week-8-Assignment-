@@ -27,17 +27,17 @@ Greenroot Agrostore is a multipage, responsive website showcasing fresh organic 
 
 ## File Structure
 
-```
+
 /greenroot-agrostore
-│-- /css/styles.css
-│-- /js/script.js
+│-- styles.css
+│-- script.js
 │-- /images/
 │-- index.html
 │-- products.html
 │-- calculator.html
 │-- about.html
 │-- contact.html
-```
+
 
 ## Deployment
 
@@ -46,7 +46,7 @@ Greenroot Agrostore is a multipage, responsive website showcasing fresh organic 
 
 ## Live URL
 
-*(Insert your deployed website URL here)*
+https://cozy-starburst-16d8dd.netlify.app/
 
 ---
 
